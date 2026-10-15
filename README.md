@@ -317,6 +317,8 @@ Once the bot is running, open Telegram and send any of the following commands:
 
 <div align="center">
 
+<div align="center">
+
 ## Project Statistics
 
 <br/>
@@ -328,13 +330,7 @@ Once the bot is running, open Telegram and send any of the following commands:
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=HdlArf&theme=rose&hide_border=true&background=FFF5F7&ring=FF69B4&fire=FF69B4&currStreakLabel=FF69B4" />
 
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=HdlArf&theme=flat&no-frame=true&no-bg=true&row=1&column=6&margin-w=8&margin-h=8" />
-
 </div>
-
-<br/>
 
 ---
 
@@ -342,13 +338,12 @@ Once the bot is running, open Telegram and send any of the following commands:
 
 ## Contribution Activity
 
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=HdlArf&theme=rose&hide_border=true&area=true" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=HdlArf&bg_color=FFF5F7&color=FF69B4&line=FF8FB1&point=FF69B4&area=true&hide_border=true&custom_title=HdlArf's%20Contribution%20Graph" width="95%" />
 
 </div>
 
-<br/>
+---
+
 
 ---
 
