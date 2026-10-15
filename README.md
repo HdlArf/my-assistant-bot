@@ -180,38 +180,71 @@
 
 <br/>
 
-**1. Clone the repository**
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your machine:
+
+- **Python 3.11 or higher** — [Download here](https://www.python.org/downloads/)
+- **Git** — [Download here](https://git-scm.com/downloads/)
+- **A Telegram account** — [Open Telegram](https://telegram.org/)
+- **A bot token** — Create one via [@BotFather](https://t.me/BotFather)
+
+<br/>
+
+### Step 1 — Clone the repository
 
     git clone https://github.com/HdlArf/my-assistant-bot.git
     cd my-assistant-bot
 
-**2. Create a virtual environment**
+<br/>
+
+### Step 2 — Create a virtual environment
+
+A virtual environment isolates the project dependencies from your system Python installation.
 
     python -m venv .venv
 
-    # Windows
+Activate it based on your operating system:
+
+**Windows**
+
     .venv\Scripts\activate
 
-    # macOS / Linux
+**macOS / Linux**
+
     source .venv/bin/activate
 
-**3. Install dependencies**
+Once activated, your terminal prompt will show `(.venv)` at the beginning of the line.
+
+<br/>
+
+### Step 3 — Install dependencies
 
     pip install -r requirements.txt
 
-**4. Configure environment variables**
+<br/>
+
+### Step 4 — Configure environment variables
+
+Copy the example environment file:
 
     cp .env.example .env
 
-Edit `.env` and set the required values:
+Then open `.env` in any text editor and fill in the required values:
 
     BOT_TOKEN=your_token_here
     OPENAI_API_KEY=optional
     WEATHER_API_KEY=optional
 
-**5. Launch the bot**
+> **Note:** `BOT_TOKEN` is required. Get it from [@BotFather](https://t.me/BotFather) on Telegram.
+
+<br/>
+
+### Step 5 — Launch the bot
 
     python -m bot
+
+The bot will start polling for messages. Open Telegram, search for your bot's username, and send `/start`.
 
 <br/>
 
@@ -239,7 +272,7 @@ Once the bot is running, open Telegram and send any of the following commands:
 | `/help` | Show all available commands |
 | `/note <text>` | Save a new note |
 | `/notes` | List all saved notes |
-| `/weather <city>` | Get current weather for a city |
+| `/weather <city>` | Get the current weather for a city |
 | `/currency <amount> <from> <to>` | Convert between currencies |
 | `/ask <question>` | Ask the AI assistant a question |
 
@@ -311,7 +344,7 @@ Once the bot is running, open Telegram and send any of the following commands:
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=HdlArf&bg_color=FFF5F7&color=FF69B4&line=FF8FB1&point=FF69B4&area=true&hide_border=true&area_color=FFB6C1" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=HdlArf&theme=rose&hide_border=true&area=true" width="95%" />
 
 </div>
 
@@ -348,7 +381,12 @@ See the [LICENSE](LICENSE) file for full details.
 
 [![GitHub](https://img.shields.io/badge/GitHub-FFB6C1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HdlArf)
 [![Telegram](https://img.shields.io/badge/Telegram-FF8FB1?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/HdlArf)
-[![Email](https://img.shields.io/badge/Email-FF69B4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@example.com)
+[![Email](https://img.shields.io/badge/Email-FF69B4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hadeelalnomai@gmail.com)
+
+<br/>
+
+For inquiries, suggestions, or collaboration, feel free to reach out at  
+**[hadeelalnomai@gmail.com](mailto:hadeelalnomai@gmail.com)**
 
 </div>
 
